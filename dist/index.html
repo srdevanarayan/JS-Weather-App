@@ -52,7 +52,7 @@
         id="currentForecast"
         class="currentForecast"
         role="region"
-        aria-labelledby="weatherLocation"
+        aria-labelledby="currentForecast__location"
       >
         <h2 id="currentForecast__location" class="currentForecast__location">
           Current Conditions
@@ -111,7 +111,22 @@
           <i class="fas fa-sync fa-spin"></i>
         </button>
       </nav>
-      <section id="dailyForecast" class="dailyForecast"></section>
+      <hr />
+      <section
+        id="dailyForecast"
+        class="dailyForecast"
+        role="region"
+        aria-labelledby="dailyForecast__title"
+      >
+        <h2 id="dailyForecast__title" class="dailyForecast__title">
+          Six Day Forecast
+        </h2>
+        <div
+          class="dailyForecast__contents"
+          class="dailyForecast__contents"
+        ></div>
+      </section>
+      <p id="confirmation" class="offscreen" aria-live="assertive"></p>
     </main>
   </body>
 </html>
