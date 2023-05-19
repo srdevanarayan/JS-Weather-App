@@ -2,7 +2,6 @@
   "name": "js-weather-app",
   "version": "1.0.0",
   "description": "**Description:**",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +18,6 @@
   },
   "homepage": "https://github.com/srdevanarayan/JS-Weather-App#readme",
   "dependencies": {
-    "node-fetch": "^3.3.1"
+    "node-fetch": "^2.6.1"
   }
 }
