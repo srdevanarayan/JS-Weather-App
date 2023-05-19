@@ -1,0 +1,23 @@
+{
+  "name": "js-weather-app",
+  "version": "1.0.0",
+  "description": "**Description:**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srdevanarayan/JS-Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srdevanarayan/JS-Weather-App/issues"
+  },
+  "homepage": "https://github.com/srdevanarayan/JS-Weather-App#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
